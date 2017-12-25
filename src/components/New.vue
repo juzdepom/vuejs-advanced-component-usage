@@ -22,6 +22,12 @@
         this.counter++
       }
     }
+    deactivated(){
+
+    },
+    activated(){
+      
+    }
   }
 </script>
 
