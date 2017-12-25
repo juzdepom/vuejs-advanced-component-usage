@@ -2,6 +2,7 @@
   <div>
     <div class="italic">
       <slot name="title"></slot>
+      <span style="color: #ccc"><slot name="subtitle">Subtitle</slot></span>
     </div>
     <div>
       <slot name="content"></slot>
