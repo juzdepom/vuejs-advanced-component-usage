@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12">
               <app-quote>
-                <h2>{{title}}</h2>
-                <p>There is no bad team, only bad leaders.</p>
+                <h2 slot="title">{{title}}</h2>
+                <p slot="content">There is no bad team, only bad leaders.</p>
               </app-quote>
             </div>
         </div>
