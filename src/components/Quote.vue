@@ -17,4 +17,7 @@
     padding: 30px;
     margin: 30px auto;
   }
+  h2 {
+    color: red;
+  }
 </style>

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xs-12">
               <app-quote>
-                <h2>Jocko Willinck</h2>
+                <h2>{{title}}</h2>
                 <p>There is no bad team, only bad leaders.</p>
               </app-quote>
             </div>
@@ -15,6 +15,11 @@
     import Quote from './components/Quote.vue'
 
     export default {
+        data: function(){
+          return {
+            title: "Jocko Willinck"
+          }
+        },
         components: {
           appQuote: Quote,
         }
